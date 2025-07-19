@@ -1,24 +1,34 @@
-# Compiled class file
+# Файлы сборки и бинарники
+/build/
+/out/
+*.jar
 *.class
 
-# Log file
+# Логи и кэш
+/logs/
+/.gradle/
+/gradle-user-home/
+
+# Локальные настройки и IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+local.properties
+gradle-wrapper.properties
+
+# Файлы ОС
+.DS_Store
+Thumbs.db
 *.log
+*.tmp
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Автогенерируемые файлы
+bin/
+gen/
+eclipse/
+run/
